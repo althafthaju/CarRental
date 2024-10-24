@@ -9,6 +9,8 @@ from rest_framework.decorators import action
 from myapp.models import Customer, Car, Rental, Payment
 from .serializers import CustomerSerializer, CarSerializer, RentalSerializer, PaymentSerializer
 
+
+#views contains all the api endpoints and how they work and the logic behind them
 class RegisterView(APIView):
     permission_classes = [AllowAny]  # Anyone can register
 
