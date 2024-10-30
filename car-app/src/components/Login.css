@@ -1,0 +1,12 @@
+.list-group {
+    background-color: black; /* Set background to black */
+}
+
+.list-group-item {
+    color: white; /* Set text color to white */
+    background-color: black; /* Keep the item background black */
+}
+
+.list-group-item:hover {
+    background-color: #333; /* Optional: Change background on hover */
+}
