@@ -76,7 +76,7 @@ const RentSide: React.FC<{ userName: string }> = ({ userName }) => {
           <p>{availableCars[selectedIndex].name}</p>
           <p>{availableCars[selectedIndex].available}</p>
           <button type="button" className="btn btn-success">
-            Rent
+            Pay Rs
           </button>
         </div>
       )}
